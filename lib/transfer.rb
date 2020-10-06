@@ -18,7 +18,7 @@ class Transfer
   end
   
   def execute_transaction
-    if BankAccount.valid? == FALSE
+    if BankAccount.status = "closed"
       @status = "rejected"
       return "Transaction rejected. Please check your account balance."
 
