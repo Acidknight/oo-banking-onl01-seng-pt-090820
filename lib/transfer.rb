@@ -17,7 +17,7 @@ class Transfer
     end
   end
   
-  ef execute_transaction
+  def execute_transaction
     if @sender.balance > @amount && @status == "pending"
       @sender.balance -= @amount
       @receiver.balance += @amount
