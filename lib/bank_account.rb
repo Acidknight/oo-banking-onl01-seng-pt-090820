@@ -14,6 +14,6 @@ class BankAccount
   end
   
   def display_balance
-    "Your balance is $"
+    "Your balance is ${self.balance}"
 
 end
