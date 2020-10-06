@@ -1,5 +1,7 @@
 class BankAccount
   
-  attr_reader
+  attr_reader :name 
+  
+  
 
 end
