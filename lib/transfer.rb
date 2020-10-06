@@ -16,4 +16,9 @@ class Transfer
       FALSE
     end
   end
+  
+  def execute_transaction
+    
+  end
+  
 end
